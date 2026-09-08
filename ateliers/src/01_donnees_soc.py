@@ -93,7 +93,7 @@ print(f"\n{len(list((DATA / 'rapports').glob('*.txt'))):>8,d} rapports d'inciden
 # %%
 brut = pd.read_csv(DATA / "evenements_systeme.csv")
 print(f"{len(brut):,} événements bruts")
-brut.head()
+brut.head()   # aperçu : 5 premières lignes par défaut, head(10) pour en voir plus
 
 # %% [markdown]
 # ### 2.2 Normalisation
@@ -157,6 +157,8 @@ enrichis = (
 
 orphelins_actif = enrichis["zone"].isna().mean()
 orphelins_compte = enrichis["role"].isna().mean()
+print(f"{len(evenements):,} événements → {len(enrichis):,} lignes "
+      f"× {enrichis.shape[1]} colonnes après jointure")
 print(f"Événements sans actif connu en CMDB : {orphelins_actif:.2%}")
 print(f"Événements sans compte connu        : {orphelins_compte:.2%}")
 enrichis.head(3)
@@ -182,7 +184,7 @@ fenetre = (
     .reset_index()
 )
 print(f"{len(evenements):,} événements → {len(fenetre):,} observations (hôte × heure)")
-fenetre.head()
+fenetre.head()   # aperçu : 5 premières lignes par défaut, head(10) pour en voir plus
 
 # %% [markdown]
 # > **Point clé.** L'agrégation est déjà de l'**ingénierie de caractéristiques**

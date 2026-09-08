@@ -47,10 +47,15 @@ assert DATA.exists(), "Lancez d'abord : python tools/generate_soc_data.py --out 
 # ## 2. Charger un jeu de données
 #
 # On commence par l'inventaire des actifs (une CMDB simplifiée).
+#
+# Le réflexe, sur n'importe quel jeu de données, tient en trois gestes :
+# `shape` pour connaître le volume, `head` pour voir à quoi ressemblent les
+# lignes, `info` pour vérifier les types et les valeurs manquantes.
 
 # %%
 assets = pd.read_csv(DATA / "assets.csv")
-assets.head()
+print(f"{len(assets)} actifs, {assets.shape[1]} colonnes")
+assets.head()   # aperçu : 5 premières lignes par défaut, head(10) pour en voir plus
 
 # %%
 assets.info()

@@ -53,7 +53,7 @@ flux = pd.read_csv(DATA / "netflow.csv", parse_dates=["horodatage"])
 print(f"{len(flux):,} flux · {flux['ip_source'].nunique()} sources · "
       f"{flux['ip_destination'].nunique()} destinations · "
       f"{(flux['horodatage'].max() - flux['horodatage'].min()).days} jours")
-flux.head()
+flux.head()   # aperçu : 5 premières lignes par défaut, head(10) pour en voir plus
 
 # %% [markdown]
 # > **Note de méthode.** Le fichier `verite_terrain/netflow_etiquettes.csv`
@@ -184,7 +184,7 @@ def caracteristiques_par_paire(df: pd.DataFrame, minimum: int = 20) -> pd.DataFr
 paires = caracteristiques_par_paire(flux)
 print(f"{len(flux):,} flux → {len(paires):,} couples (source, destination) "
       f"d'au moins 20 flux")
-paires.head()
+paires.head()   # aperçu : 5 premières lignes par défaut, head(10) pour en voir plus
 
 # %% [markdown]
 # ### Exercice 3.1

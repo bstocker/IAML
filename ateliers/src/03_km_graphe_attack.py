@@ -182,7 +182,7 @@ exposition = (
 )
 print(f"{len(regles)} règles rattachées · "
       f"{len(exposition)} techniques portées par une CVE non corrigée")
-exposition.head()
+exposition.head()   # aperçu : 5 premières lignes par défaut, head(10) pour en voir plus
 
 # %% [markdown]
 # ## 4. Ce que les métriques de graphe révèlent

@@ -48,7 +48,7 @@ ALEA = 42
 evenements = pd.read_csv(DATA / "evenements_systeme.csv", parse_dates=["horodatage"])
 print(f"{len(evenements):,} événements · {evenements['hostname'].nunique()} hôtes · "
       f"{evenements['horodatage'].dt.date.nunique()} jours")
-evenements.head()
+evenements.head()   # aperçu : 5 premières lignes par défaut, head(10) pour en voir plus
 
 # %% [markdown]
 # ## 1. Le choix décisif : l'unité d'observation

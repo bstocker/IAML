@@ -2,7 +2,7 @@
 
 Atelier pratique GitHub / Codespaces accompagnant le cours
 **« Intelligence artificielle et Machine Learning pour la cybersécurité »**
-(ingénieur informatique, spécialité cybersécurité — 12 à 14 UT).
+(ingénieur informatique, spécialité cybersécurité — **14 UT**).
 
 Douze ateliers sur notebooks Jupyter, un générateur de données synthétiques
 imitant les artefacts d'un SOC, et un environnement reproductible qui démarre en
@@ -49,8 +49,8 @@ make check      # vérifie que tout est en place
 | **10** | [Déploiement et surveillance](notebooks/enonces/10_deploiement_mlops.ipynb) | T3 | API de scoring, dérive, PSI, fiche de modèle |
 | **11** | [Recherche bibliographique](notebooks/enonces/11_recherche_bibliographique.ipynb) | T5 | protocole, criblage, grille de lecture, défauts récurrents |
 
-Correspondance détaillée avec les 5 temps de la fiche projet, et deux montages
-possibles (12 UT ou 14 UT) : **[docs/planning.md](docs/planning.md)**.
+Maquette semaine par semaine et correspondance détaillée avec les 5 temps de
+la fiche projet : **[docs/planning.md](docs/planning.md)**.
 
 ---
 
@@ -98,7 +98,7 @@ Le détail est dans `data/LISEZ-MOI.md`, généré en même temps que les donné
 
 | Document | Pour qui |
 |---|---|
-| [docs/planning.md](docs/planning.md) | correspondance avec la fiche projet, arbitrage 12/14 UT, choix du Temps 4 |
+| [docs/planning.md](docs/planning.md) | maquette 14 semaines, plan de repli à 12 UT, choix du Temps 4 |
 | [docs/glossaire.md](docs/glossaire.md) | étudiants — ML, KM, PM, DA, SOC, SIEM, ATT&CK |
 | [docs/grille-de-lecture.md](docs/grille-de-lecture.md) | étudiants — note de lecture du Temps 5 |
 | [docs/mini-projet.md](docs/mini-projet.md) | étudiants — six sujets, livrables, attendus |

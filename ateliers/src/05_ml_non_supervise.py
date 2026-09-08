@@ -1,11 +1,11 @@
 # ---
-# Atelier 05 — Temps 3 : Machine Learning (2/3)
+# Atelier 05 — Temps 3 : Machine Learning (2/4) — semaine 7
 # ---
 
 # %% [markdown]
 # # Atelier 05 — Apprentissage non supervisé : segmenter et réduire les journaux
 #
-# > **Temps 3 — Machine Learning** (1 UT sur 4) — 2 h de TP
+# > **Temps 3 — Machine Learning** (1 UT sur 4) · **semaine 7** · 2 h de TP
 #
 # ## Objectifs
 #

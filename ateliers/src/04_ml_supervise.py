@@ -1,11 +1,15 @@
 # ---
-# Atelier 04 — Temps 3 : Machine Learning (1/3)
+# Atelier 04 — Temps 3 : Machine Learning (1/4) — semaine 6
 # ---
 
 # %% [markdown]
 # # Atelier 04 — Apprentissage supervisé : le triage automatique des alertes
 #
-# > **Temps 3 — Machine Learning** (2 UT sur 4) — 2 × 2 h de TP
+# > **Temps 3 — Machine Learning** (1 UT sur 4) · **semaine 6** · 2 h de TP
+# >
+# > C'est l'atelier le plus dense du cours. En séance : sections 1 à 6 — la fuite
+# > de données, la partition temporelle, les caractéristiques, le seuil et la
+# > courbe de décision. Sections 7 à 9 en travail personnel.
 #
 # ## Objectifs
 #

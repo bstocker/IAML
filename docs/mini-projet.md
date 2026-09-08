@@ -19,7 +19,8 @@ limites, capacité à traduire un résultat statistique en décision opérationn
 ## 2. Modalités
 
 - **Binôme** (monôme accepté sur demande motivée).
-- Démarrage semaine 5, rendu semaine 12 (ou 14 selon le montage retenu).
+- Démarrage semaine 5, rendu semaine 13, soutenances semaine 14
+  (maquette 14 UT — voir [planning.md](planning.md) §2).
 - Rendu : un dépôt Git contenant un notebook exécutable, un rapport de 6 à 10
   pages, et les supports de restitution.
 - Soutenance : 15 minutes de présentation + 10 minutes de questions.
@@ -172,11 +173,15 @@ Les points suivants sont **vérifiés systématiquement** :
 
 | Échéance | Livrable |
 |---|---|
-| Semaine 5 | Choix du sujet et du binôme |
+| Semaine 5 | Choix du sujet et du binôme (lancement en séance, après l'atelier 03) |
 | Semaine 6 | **Fiche de cadrage** (§5.2, section 1) validée par l'enseignant |
 | Semaine 9 | Point d'étape de 10 minutes : données, premières caractéristiques, référence naïve |
-| Semaine 11 | Dépôt du notebook et du rapport |
-| Semaine 12 | Soutenances |
+| Semaine 13 | Dépôt du notebook et du rapport |
+| Semaine 14 | Soutenances |
 
 La fiche de cadrage de la semaine 6 est **bloquante** : un projet mal cadré ne
 peut pas être rattrapé par la qualité de son implémentation.
+
+> En cas de repli à 12 UT (voir [planning.md](planning.md) §2.3), le calendrier
+> recule de deux semaines à partir du point d'étape : S8 / S11 / S12. Prévenez
+> les étudiants avant la semaine 6 — la charge est calibrée sur 14 semaines.

@@ -1,11 +1,11 @@
 # ---
-# Atelier 10 — Temps 3 : industrialisation
+# Atelier 10 — Temps 3 : Machine Learning (4/4) — semaine 9, industrialisation
 # ---
 
 # %% [markdown]
 # # Atelier 10 — Déployer, surveiller, maintenir : le modèle en production
 #
-# > **Temps 3 — Machine Learning / MLOps** — 2 h de TP
+# > **Temps 3 — Machine Learning / MLOps** (1 UT sur 4) · **semaine 9** · 2 h de TP
 # >
 # > Répond directement aux compétences attendues du marché : *« implémenter des
 # > pipelines automatisés de déploiement et de surveillance des modèles (gestion

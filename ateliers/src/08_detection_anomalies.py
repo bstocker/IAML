@@ -5,7 +5,7 @@
 # %% [markdown]
 # # Atelier 08 — Détection d'anomalies sur les flux réseau
 #
-# > **Temps 4 — Process Mining ou Détection d'Anomalies** (1 UT) — 2 h de TP
+# > **Temps 4 — Process Mining ou Détection d'Anomalies** (1 UT) · **semaine 10** · 2 h de TP
 # >
 # > Cet atelier traite l'option **détection d'anomalies**. L'atelier 07 traite
 # > l'option **process mining**.

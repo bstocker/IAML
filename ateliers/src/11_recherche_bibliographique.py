@@ -6,6 +6,7 @@
 # # Atelier 11 — Recherche bibliographique : évaluer l'état de l'art
 #
 # > **Temps 5 — Recherche bibliographique : IA/ML pour la cyber** (4 UT)
+# > **semaine 11** en séance, puis tutorat (S12–S13) et restitutions (S14)
 # > Tutorat par un enseignant-chercheur. Cet atelier outille la démarche ; il ne
 # > la remplace pas.
 #

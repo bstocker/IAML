@@ -5,7 +5,7 @@
 # %% [markdown]
 # # Atelier 01 — Typologie des données SOC et modèle général de traitement des logs
 #
-# > **Temps 1 — IA/ML pour la cyber** (1 UT) — 2 h de TP
+# > **Temps 1 — IA/ML pour la cyber** (1 UT) · **semaine 1** · 2 h de TP
 #
 # ## Objectifs
 #

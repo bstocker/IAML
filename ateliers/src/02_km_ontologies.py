@@ -5,7 +5,7 @@
 # %% [markdown]
 # # Atelier 02 — KM 1 : modéliser la connaissance cyber (ontologies, RDF, SPARQL)
 #
-# > **Temps 2 — Gestion des connaissances** (2 UT sur 4) — 2 × 2 h de TP
+# > **Temps 2 — Gestion des connaissances** (2 UT sur 4) · **semaines 2–3** · 2 × 2 h de TP
 #
 # ## Objectifs
 #

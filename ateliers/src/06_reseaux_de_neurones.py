@@ -1,11 +1,11 @@
 # ---
-# Atelier 06 — Temps 3 : Machine Learning (3/3)
+# Atelier 06 — Temps 3 : Machine Learning (3/4) — semaine 8
 # ---
 
 # %% [markdown]
 # # Atelier 06 — Réseaux de neurones : du perceptron à la modélisation de séquences
 #
-# > **Temps 3 — Machine Learning** (1 UT sur 4) — 2 h de TP
+# > **Temps 3 — Machine Learning** (1 UT sur 4) · **semaine 8** · 2 h de TP
 #
 # ## Objectifs
 #

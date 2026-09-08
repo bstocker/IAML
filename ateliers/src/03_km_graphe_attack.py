@@ -5,7 +5,7 @@
 # %% [markdown]
 # # Atelier 03 — KM 2 : graphe de connaissances ATT&CK et aide à la décision SOC
 #
-# > **Temps 2 — Gestion des connaissances** (2 UT sur 4) — 2 × 2 h de TP
+# > **Temps 2 — Gestion des connaissances** (2 UT sur 4) · **semaines 4–5** · 2 × 2 h de TP
 #
 # ## Objectifs
 #

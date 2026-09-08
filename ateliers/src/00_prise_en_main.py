@@ -5,7 +5,8 @@
 # %% [markdown]
 # # Atelier 00 — Prise en main : Codespace, Python et données de sécurité
 #
-# > **Temps 0 (UT de remise à niveau, optionnelle)** — 2 h de TP
+# > **UT 0 — remise à niveau** · 2 h · *travail personnel préalable*
+# > (à traiter en présentiel si le groupe est hétérogène)
 #
 # ## Objectifs
 #

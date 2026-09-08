@@ -7,7 +7,8 @@
 #
 # > **Compétence 3.1 — « prétraiter et analyser des données non structurées
 # > (texte, images) pour obtenir un jeu de données exploitable »**
-# > 2 h de TP, à placer en fin de Temps 1 ou dans le Temps 3.
+# > 2 h · **travail personnel guidé**, adossé au mini-projet (sujets B et E).
+# > Voir `docs/planning.md` §2.2 pour les variantes en présentiel.
 #
 # ## Objectifs
 #

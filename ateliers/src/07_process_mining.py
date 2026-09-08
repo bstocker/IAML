@@ -5,7 +5,7 @@
 # %% [markdown]
 # # Atelier 07 — Process mining : analyser le processus de réponse à incident
 #
-# > **Temps 4 — Process Mining ou Détection d'Anomalies** (1 UT) — 2 h de TP
+# > **Temps 4 — Process Mining ou Détection d'Anomalies** (1 UT) · **semaine 10** · 2 h de TP
 # >
 # > Cet atelier traite l'option **process mining**. L'atelier 08 traite l'option
 # > **détection d'anomalies**. Les deux peuvent être menés en survol, ou l'un des

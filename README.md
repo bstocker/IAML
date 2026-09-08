@@ -2,7 +2,7 @@
 
 Atelier pratique GitHub / Codespaces accompagnant le cours
 **« Intelligence artificielle et Machine Learning pour la cybersécurité »**
-(ingénieur informatique, spécialité cybersécurité — **14 UT**).
+(ingénieur informatique, spécialité cybersécurité).
 
 Douze ateliers sur notebooks Jupyter, un générateur de données synthétiques
 imitant les artefacts d'un SOC, et un environnement reproductible qui démarre en
@@ -49,9 +49,6 @@ make check      # vérifie que tout est en place
 | **10** | [Déploiement et surveillance](notebooks/enonces/10_deploiement_mlops.ipynb) | T3 | API de scoring, dérive, PSI, fiche de modèle |
 | **11** | [Recherche bibliographique](notebooks/enonces/11_recherche_bibliographique.ipynb) | T5 | protocole, criblage, grille de lecture, défauts récurrents |
 
-Maquette semaine par semaine et correspondance détaillée avec les 5 temps de
-la fiche projet : **[docs/planning.md](docs/planning.md)**.
-
 ---
 
 ## Le fil conducteur
@@ -70,8 +67,7 @@ réellement, et chacun contient un **moment où le résultat attendu n'arrive pa
 - la surveillance du modèle affiche 0,999 d'AUC-PR sur les mois qu'il a mémorisés
   et 0,27 sur les suivants (atelier 10).
 
-**Ce sont ces moments qui constituent le cours.** Les bibliothèques changeront ;
-ces réflexes non.
+**Ce sont ces moments qui constituent le cours.** 
 
 ---
 
@@ -96,14 +92,14 @@ Le détail est dans `data/LISEZ-MOI.md`, généré en même temps que les donné
 
 ## Documentation
 
-| Document | Pour qui |
+| Document | Contenu |
 |---|---|
-| [docs/planning.md](docs/planning.md) | maquette 14 semaines, plan de repli à 12 UT, choix du Temps 4 |
+| [docs/planning.md](docs/planning.md) | maquette et planning |
 | [docs/glossaire.md](docs/glossaire.md) | étudiants — ML, KM, PM, DA, SOC, SIEM, ATT&CK |
 | [docs/grille-de-lecture.md](docs/grille-de-lecture.md) | étudiants — note de lecture du Temps 5 |
 | [docs/mini-projet.md](docs/mini-projet.md) | étudiants — six sujets, livrables, attendus |
-| [docs/bareme.md](docs/bareme.md) | enseignants — barèmes détaillés des trois modalités |
-| [docs/guide-enseignant.md](docs/guide-enseignant.md) | enseignants — conduite de séance, distribution, quotas |
+| [docs/bareme.md](docs/bareme.md) | enseignant - barèmes détaillés des trois modalités |
+| [docs/guide-enseignant.md](docs/guide-enseignant.md) | enseignant - conduite de séance, distribution, quotas |
 
 ---
 

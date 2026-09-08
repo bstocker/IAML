@@ -17,8 +17,8 @@
 # 3. produire une visualisation lisible ;
 # 4. reconnaître les pièges classiques (types, fuseaux horaires, valeurs manquantes).
 #
-# **Cet atelier ne fait pas d'IA.** Il garantit que le socle Python est acquis
-# avant le Temps 1. Si tout vous paraît évident, passez directement à l'atelier 01.
+# Cette phase garantit que le socle Python est bien en place. Si tout vous
+# paraît évident, passez directement à l'atelier 01.
 
 # %% [markdown]
 # ## 1. Vérification de l'environnement

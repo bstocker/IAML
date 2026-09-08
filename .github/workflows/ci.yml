@@ -1,0 +1,50 @@
+name: Atelier IAML
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verifier:
+    name: Données, notebooks et corrigés
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Installer Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Installer les dépendances
+        run: |
+          python -m pip install --upgrade pip wheel
+          pip install -r requirements.txt
+
+      - name: Générer les jeux de données synthétiques
+        run: python tools/generate_soc_data.py --out data --seed 42
+
+      - name: Vérifier l'environnement
+        run: python tools/check_env.py
+
+      - name: Vérifier que les notebooks sont à jour
+        run: python tools/build_notebooks.py --check
+
+      - name: Exécuter tous les corrigés
+        run: python tools/run_notebooks.py
+
+      - name: Conserver les artefacts en cas d'échec
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: diagnostic
+          path: |
+            data/LISEZ-MOI.md
+            artifacts/
+          retention-days: 7

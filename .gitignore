@@ -1,0 +1,24 @@
+# Données générées (reproductibles via `make data`)
+data/
+
+# Artefacts générés par les ateliers
+artifacts/
+service/
+*.joblib
+*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# Sorties de notebooks exécutés en CI
+notebooks/**/*.nbconvert.ipynb
+_build/
+
+# Divers
+.DS_Store
